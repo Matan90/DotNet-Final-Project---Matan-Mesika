@@ -2,6 +2,7 @@ import { LoginService } from './../../authentication/services/login.service';
 import {Component, Inject, OnInit, ViewChild} from '@angular/core';
 import {StoreService} from '../services/store.service';
 import { MAT_DIALOG_DATA, MatDialog, MatDialogRef, MatSort, MatTableDataSource, MatSnackBar } from '@angular/material';
+import { ENTER_SELECTOR } from '@angular/animations/browser/src/util';
 
 @Component({
   selector: 'stores-list',
@@ -64,7 +65,9 @@ export class StoresListComponent implements OnInit {
           if (result){
             this.snackBar.open("Successfully Store Add !", "", {duration:3000});
           }
+          else{
           this.snackBar.open("Store Name, City or Address already exists", "", {duration:3000});
+          }
           return;
         });
       }
