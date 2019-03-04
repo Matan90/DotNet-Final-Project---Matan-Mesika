@@ -1,0 +1,30 @@
+<div class="containerCards">
+    <mat-card *ngFor="let adopt of adoptions" class="example-card">
+      <mat-card-header>
+        <mat-card-title>{{adopt.petName}}</mat-card-title>
+        <mat-card-subtitle>{{adopt.petRace}}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image [src]="adopt.image" alt="adopt.petName">
+      <mat-card-content>
+        <div class="cardText">
+          <div>
+              {{adopt.petName}} is {{adopt.petAge}} years old and he looks for 
+          </div>
+          <div>
+              new home, you can help him.
+          </div>
+          <div>
+              If you want to care and Adopt {{adopt.petName}}:
+          </div>
+          <div>
+              Adoption Location: {{adopt.location}}
+          </div>
+          <div>
+              Location Phone: {{adopt.locationPhone}}
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+

@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+
+    <!-- Added Libraries -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <link href="CSS/MenuStyle.css" rel="stylesheet" />
+    <script src="JS/angular.min.js"></script>
+    <script src="JS/angular-route.min.js"></script>
+    <script src="JS/angular-animate.js"></script>
+    <title>Care My Pet</title>
+
+</head>
+<body>
+    <div ng-app="care_my_pet" ng-controller="care_my_pet_Ctrl">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+            <a class="navbar-brand" style="color:white;" href="#">CareMyPet</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="" ng-click="GetHome()">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" ng-click="GetAbout()">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" ng-click="getStores()">Stores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" ng-click="getAdoption()">Adoption</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" ng-click="getVS()">Veterinary Services</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div id="homeDiv">
+
+
+
+        </div>
+
+
+        <table class="table table-striped" id="storesTable" ng-show="isInStores">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Activity Time</th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="store in stores">
+                    <td scope="row">{{$index}}</td>
+                    <td>{{store.storeID}}</td>
+                    <td>{{store.storeName}}</td>
+                    <td>{{store.description}}</td>
+                    <td>{{store.activityTime}}</td>
+                    <td>{{store.location}}</td>
+                    <td>{{store.phone}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script>
+        var care_my_pet = angular.module("care_my_pet", []);
+        care_my_pet.controller("care_my_pet_Ctrl", function ($scope, $http) {
+
+            $scope.getStores = function () {
+                $scope.inInStore = false;
+                $http.get("/api/Stores").then(function (response) {
+                    $scope.stores = response.data;
+                    if ($scope.isInStores == true)
+                        $scope.isInStores = false;
+                    else
+                        $scope.isInStores = true;
+                });
+            }
+
+
+        });
+    </script>
+</body>
+</html>

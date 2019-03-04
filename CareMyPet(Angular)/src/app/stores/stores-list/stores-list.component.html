@@ -1,0 +1,51 @@
+<mat-form-field>
+  <input autocomplete="false" matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter" style="width: 90%">
+</mat-form-field>
+
+<button *ngIf="loginService?.isUserLoggedIn" mat-raised-button (click)="openDialog()" style="width: 10%; float: right;">Add new Store</button>
+
+
+
+<table mat-table [dataSource]="stores" matSort class="mat-elevation-z8">
+  <!-- Position Column -->
+  <ng-container matColumnDef="storeID">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header> ID </th>
+    <td mat-cell *matCellDef="let element"> {{element.storeID}} </td>
+  </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="storeName">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+    <td mat-cell *matCellDef="let element"> {{element.storeName}} </td>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="description">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header> Description </th>
+    <td mat-cell *matCellDef="let element"> {{element.description}} </td>
+  </ng-container>
+
+  <!-- Symbol Column -->
+  <ng-container matColumnDef="activityTime">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header> Activity Time </th>
+    <td mat-cell *matCellDef="let element"> {{element.activityTime}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="city">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header> City </th>
+    <td mat-cell *matCellDef="let element"> {{element.city}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="address">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header> Address </th>
+    <td mat-cell *matCellDef="let element"> {{element.address}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="phone">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header> Phone </th>
+    <td mat-cell *matCellDef="let element"> {{element.phone}} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

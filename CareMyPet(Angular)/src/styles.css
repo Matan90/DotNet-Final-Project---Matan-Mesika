@@ -1,0 +1,85 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }
+
+div.carouselOverallFailure div.ui-carousel.ui-widget.ui-widget-content.ui-corner-all {
+  border: none;
+}
+
+div.carouselOverallFailure a.ui-carousel-page-link.fa.fa-circle-o.fa-dot-circle-o {
+  display: none;
+}
+
+div.carouselOverallFailure div.ui-carousel.ui-widget.ui-widget-content.ui-corner-all {
+  display: flex;
+}
+
+div.carouselOverallFailure div.ui-carousel-viewport {
+  flex: 1;
+}
+
+div.carouselOverallFailure li.ui-carousel-item.ui-widget-content.ui-corner-all {
+  border: none;
+  width: 150px;
+}
+
+div.carouselOverallFailure div.ui-carousel-page-links {
+  display: none;
+}
+
+div.carouselOverallFailure span.ui-carousel-button.ui-carousel-next-button.pi.pi-arrow-circle-right {
+  order: 1;
+  position: absolute;
+  right: -27px;
+  z-index: 1;
+  top: 328px;
+}
+
+div.carouselOverallFailure span.ui-carousel-button.ui-carousel-prev-button.pi.pi-arrow-circle-left {
+  order: 0;
+  position: absolute;
+  left: -4px;
+  z-index: 1;
+  top: 328px;
+}
+
+div .carouselOverallFailure div.ui-carousel .ui-carousel-header{
+  border: none !important;
+  background: none !important;
+}
+
+div .carouselOverallFailure div.ui-carousel .ui-carousel-dropdown{
+  display: none;
+}
+div.carouselOverallFailure .pi-arrow-circle-right:before {
+  content: "\f054";
+}
+
+div.carouselOverallFailure .pi-arrow-circle-left:before {
+  font-family: FontAwesome;
+  content: "\f053";
+}
+
+div.carouselOverallFailure div.ui-carousel.ui-widget.ui-widget-content.ui-corner-all {
+  padding-top: 10px;
+}
+
+.pi-arrow-circle-right:before {
+  font-family: FontAwesome;
+  content: "\f054"
+}
+
+.pi-arrow-circle-left:before {
+  font-family: FontAwesome;
+  content: "\f053"
+}
+
+.mat-input-element {
+  font-size: 25px !important;
+}
+
+.image-header{
+  width: 100%;
+  height: 750px;
+}

@@ -1,0 +1,92 @@
+.main-container{
+  margin: 5%;
+}
+
+.about-us{
+  float: left;
+  font-size: 50px;
+  margin-left: -10%;
+  margin-top: 20%;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  line-height: 1.2em !important;
+  font-weight: 600;
+}
+
+.about-us-text{
+  margin: 2% 42% 0% -10%;
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
+
+.static-image{
+  width: 70%;
+  margin: 3% 0% 5% 3%;
+  /*border: black solid 1px;*/
+  /*box-shadow: 0 6px 12px rgba(255, 255, 255, 0.3);*/
+}
+
+
+
+/* CSS talk bubble */
+.talk-bubble {
+  right: 20%;
+  top: 11%;
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  height: auto;
+  background-color: lightyellow;
+}
+.border{
+  border: 4px solid #666;
+}
+.round{
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px
+}
+
+/*Right triangle, placed bottom left side slightly in*/
+.tri-right.border.btm-left-in:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 30px;
+  right: auto;
+  top: auto;
+  bottom: -28px;
+  border: 13px solid;
+  border-color: #666 transparent transparent #666;
+}
+.tri-right.btm-left-in:after {
+  content: ' ';
+  position: absolute;
+  width: 20px;
+  left: 33px;
+  right: auto;
+  top: auto;
+  bottom: -21px;
+  border: 10px solid;
+  border-color: lightyellow transparent transparent lightyellow;
+}
+
+
+/* talk bubble contents */
+.talktext{
+  padding: 1em;
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}

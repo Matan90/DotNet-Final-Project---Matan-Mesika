@@ -1,0 +1,19 @@
+.subHeader{
+  height: 750px;
+  position: relative;
+}
+
+.subHeaderText{
+  position: absolute;
+  font-size: 45px;
+  font-weight: bold;
+  color: #101515;
+  top: 50%;
+  left: 7%;
+}
+
+.subHeaderParegraph{
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+}

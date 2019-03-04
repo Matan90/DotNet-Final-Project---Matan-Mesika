@@ -1,0 +1,42 @@
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.deps.json
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.runtimeconfig.json
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.runtimeconfig.dev.json
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.dll
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.pdb
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.RazorAssemblyInfo.cache
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.RazorAssemblyInfo.cs
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.AssemblyInfo.cs
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.RazorTargetAssemblyInfo.cache
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.dll
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.pdb
+D:\GitHub\Matan-Mesika\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.deps.json
+D:\GitHub\Matan-Mesika\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.runtimeconfig.json
+D:\GitHub\Matan-Mesika\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.runtimeconfig.dev.json
+D:\GitHub\Matan-Mesika\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.dll
+D:\GitHub\Matan-Mesika\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.pdb
+D:\GitHub\Matan-Mesika\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.csprojAssemblyReference.cache
+D:\GitHub\Matan-Mesika\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.csproj.CoreCompileInputs.cache
+D:\GitHub\Matan-Mesika\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.RazorAssemblyInfo.cache
+D:\GitHub\Matan-Mesika\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.RazorAssemblyInfo.cs
+D:\GitHub\Matan-Mesika\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.AssemblyInfoInputs.cache
+D:\GitHub\Matan-Mesika\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.AssemblyInfo.cs
+D:\GitHub\Matan-Mesika\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.RazorTargetAssemblyInfo.cache
+D:\GitHub\Matan-Mesika\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.dll
+D:\GitHub\Matan-Mesika\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.pdb
+D:\Google Drive Sync\HackerU - PC\Project\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.deps.json
+D:\Google Drive Sync\HackerU - PC\Project\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.runtimeconfig.json
+D:\Google Drive Sync\HackerU - PC\Project\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.runtimeconfig.dev.json
+D:\Google Drive Sync\HackerU - PC\Project\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.dll
+D:\Google Drive Sync\HackerU - PC\Project\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.pdb
+D:\Google Drive Sync\HackerU - PC\Project\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.csprojAssemblyReference.cache
+D:\Google Drive Sync\HackerU - PC\Project\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.csproj.CoreCompileInputs.cache
+D:\Google Drive Sync\HackerU - PC\Project\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.RazorAssemblyInfo.cache
+D:\Google Drive Sync\HackerU - PC\Project\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.RazorAssemblyInfo.cs
+D:\Google Drive Sync\HackerU - PC\Project\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.AssemblyInfoInputs.cache
+D:\Google Drive Sync\HackerU - PC\Project\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.AssemblyInfo.cs
+D:\Google Drive Sync\HackerU - PC\Project\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.RazorTargetAssemblyInfo.cache
+D:\Google Drive Sync\HackerU - PC\Project\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.dll
+D:\Google Drive Sync\HackerU - PC\Project\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.pdb

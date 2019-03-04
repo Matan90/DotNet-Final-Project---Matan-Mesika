@@ -1,0 +1,65 @@
+.subHeader{
+  height: 750px;
+  position: relative;
+}
+
+.subHeaderText{
+  position: absolute;
+  font-size: 45px;
+  font-weight: bold;
+  color: #2a1a10;
+  top: 52%;
+  right: 8%;
+}
+
+.subHeaderParegraph{
+  font-size: 16px;
+  color: white;
+  margin-top: 10px;
+}
+
+.example-card {
+  width: 100%;
+  /* margin: 0px; */
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 2%;
+  box-shadow: 0 0 2rem rgba(0, 0, 255, 0.1);
+}
+
+.containerCards{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.cardText{
+  font-size: 20px;
+}
+
+.image-card{
+  height: 300px;
+  width: 300px;
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-container{
+  text-align: right;
+  margin-right: 4%;
+}
+
+.mat-card-image:first-child {
+  margin-top: -33px !important;
+}
+
+.mat-card-content {
+  margin-bottom: -1% !important;
+  margin-left: 0.4%;
+}

@@ -1,0 +1,59 @@
+<div class="wrapper carouselOverallFailure">
+  <div class="carousel-image"></div>
+  <p-carousel class="carousel" [value]="homeContents" numVisible="1" circular="circular" autoplayInterval="15000">
+    <ng-template let-item pTemplate="item">
+      <img [src]="item.cardImage" style="height: 320px;width: 100%"/>
+      <div class="message"> {{item.cardDescription}}</div>
+    </ng-template>
+  </p-carousel>
+    <div class="adoption-friends" [(ngModel)]="lastAdoption">
+      <div class="header">Last Adoption Friend</div>
+        <img class="img" [src]="lastAdoption.image">
+          <div class="text">
+            <div>
+              {{lastAdoption?.petName}} is {{lastAdoption?.petAge}} years old and he looks for new home, you can help him.
+            </div>
+            <div>
+              If you want to care and Adopt {{lastAdoption?.petName}}:
+            </div><br>
+            <div>
+              Adoption Location: {{lastAdoption?.location}}
+            </div>
+            <div>
+              Location Phone: {{lastAdoption?.locationPhone}}
+            </div>
+        </div>
+    </div>
+
+  <div class="home-vet">
+    <div class="header2">Environment Veterinary Services</div>
+    <div class="vet-table">
+
+      <table mat-table [dataSource]="vets" matSort class="mat-elevation-z8">
+
+        <ng-container matColumnDef="name">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+          <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+        </ng-container>
+        <ng-container matColumnDef="location">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Location </th>
+          <td mat-cell *matCellDef="let element"> {{element.location}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="phone">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Phone </th>
+          <td mat-cell *matCellDef="let element"> {{element.phone}} </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+    </div>
+    <div #gmap class="map" style="width:100%"></div>
+  </div>
+</div>
+
+
+
+
+

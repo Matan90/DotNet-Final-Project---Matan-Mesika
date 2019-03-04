@@ -1,0 +1,35 @@
+<div class="col-md-12" class="subHeader">
+  <img class="image-header" src="../../../assets/hostels-main.jpeg">
+  <div class="subHeaderText">
+    <div>Go Somewhere,</div>
+    <div>And you cant Take Care ?</div>
+    <div class="subHeaderParegraph">
+      <p></p>
+      <p>There is a list of hostels designed for pets </p>
+      <p>They will take care of your pet</p>
+    </div>
+  </div>
+</div>
+  <div class="containerCards">
+    <mat-card *ngFor="let hostel of hostels" class="example-card">
+      <mat-card-header>
+        <mat-card-title>{{hostel.hostelName}}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="card-container">
+          <div style="display: block">
+            <div>Animals: {{hostel.animalsTypes}}</div>
+            <div>Location: {{hostel.location}}</div>
+            <div>Phone: {{hostel.phone}}</div>
+          </div>
+          <div class="img-container">
+            <img mat-card-image [src]="hostel.hostelImage" class="image-card">
+          </div>
+        </div>
+      </mat-card-content>
+      <!--<mat-card-actions>-->
+      <!--<button mat-button>LIKE</button>-->
+      <!--<button mat-button>SHARE</button>-->
+      <!--</mat-card-actions>-->
+    </mat-card>
+  </div>

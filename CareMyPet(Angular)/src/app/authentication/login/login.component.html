@@ -1,0 +1,22 @@
+<body>
+  <div class="login-page">
+    <div class="form">
+      <form *ngIf="!needRegistration">
+        <h2 class="loginTitle">Login</h2>
+        <input id="loginName" name="loginName" class="form-control" required [(ngModel)]="loginUserName" #loginName="ngModel" placeholder="Enter user name">
+        <input id="loginPass" name="loginPass" type="password" class="form-control" required [(ngModel)]="loginPassword" #loginPass="ngModel" placeholder="Enter password">
+        <button type="submit" [disabled]="!loginUserName || !loginPassword || clicked" (click)="login()">login</button>
+
+        <p class="message">Not registered? <a style="cursor: pointer" (click)="this.needRegistration = true">Create an account</a></p>
+      </form>
+      <form *ngIf="needRegistration">
+        <h2>Register</h2>
+        <input type="text" id="registerFirstName" name="registerFirstName" class="form-control" [(ngModel)]="registrationFirstName" #registerFirstName="ngModel" placeholder="Enter First Name" required/>
+        <input type="text" id="registerLastName" name="registerLastName" class="form-control" [(ngModel)]="registrationLastName" #registerLastName="ngModel" placeholder="Enter Last Name" required/>
+        <input id="registerUserName" name="registerUserName" class="form-control" required [(ngModel)]="registrationUserName" #registerUserName="ngModel" placeholder="Enter User Name">
+        <input id="registerPass" name="registerPass" type="password" class="form-control" required [(ngModel)]="registrationPassword" #registerPass="ngModel" placeholder="Enter Password">
+        <button type="submit" [disabled]="!registrationFirstName || !registrationLastName || !registrationUserName || !registrationPassword || clicked" (click)="register()">Create</button>
+      </form>
+    </div>
+  </div>
+</body>
